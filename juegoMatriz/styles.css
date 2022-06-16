@@ -1,0 +1,142 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+main{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.section1{
+    background-color: rgba(255,255,255,0.3);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+#contador-pregunta{
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.4);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 300px;
+    height: 600px;
+    padding: 0 20px;
+}
+
+#ruta{
+    border: 1px solid white;
+    height:  105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+#controles{
+    border: 1px solid white;
+    height:  150px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+#titulo{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.control-btn{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#iniciar-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nombreInput{
+    border: 1px solid white;
+    height: 20px;
+    width: 200px;
+}
+
+#label-ruta{
+    border: 1px solid white;
+}
+#probar-ruta{
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#encuesta{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.numero-prom{
+    text-align: center;
+}
+
+#promedioPreguntas{
+    border: 1px solid white;
+    text-align: center;
+    margin: 15px;
+    padding-inline: 5%;
+    font-size: 12px;
+}
+
+#promedioEncuesta{
+    border: 1px solid white;
+    text-align: center;
+    margin: 15px;
+    padding-inline: 5%;
+    font-size: 12px;
+}
+
+#promedios{
+    display: flex;
+}
+
+#listaUsuarios{
+    border: 1px solid white;
+    text-align: center;
+    margin: 15px;
+    padding-inline: 5%;
+    font-size: 12px;
+    height: 550px;
+    width: 60%;
+    overflow-x: auto;
+}
